@@ -1,0 +1,46 @@
+# --- Operating System files ---
+Thumbs.db                # Windows
+
+# --- Node.js ---
+node_modules/            # Dependencies
+npm-debug.log*           # Error logs
+yarn-debug.log*          
+yarn-error.log*          
+.pnpm-debug.log*         
+
+# --- Python ---
+__pycache__/             # Byte-compiled files
+*.py[cod]                # Compiled Python files
+*.pyo                    # Optimized files
+venv/                    # Virtual environment directory
+
+# --- Java ---
+*.class                  # Java bytecode files
+*.jar                    # Java JAR files
+*.war                    # Java WAR files
+*.log                    # Log files
+target/                  # Maven target directory
+build/                   # Gradle build directory
+
+# --- JavaScript/TypeScript ---
+dist/                    # Distribution files
+*.log                    # Log files
+coverage/                # Test coverage reports
+.idea/                   # WebStorm/IntelliJ project files
+
+# --- VS Code ---
+.vscode/                 # VS Code settings directory
+
+# --- macOS Files ---
+*.DS_Store               # Finder created files
+
+# --- Logs and Temporary Files ---
+*.log                    # Log files
+*.tmp                    # Temporary files
+*.swp                    # Swap files
+
+# --- Environment Variables ---
+.env                     # Environment variable files
+.env.local               # Local environment variables
+
+

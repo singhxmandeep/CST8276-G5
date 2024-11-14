@@ -32,6 +32,8 @@ const Map = ({ routeId }) => {
 
     return (
         <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_API_KEY}>
+
+
             <GoogleMap mapContainerStyle={mapContainerStyle} center={center} zoom={15}>
                 {locations.map((location, index) => (
                     <Marker key={index} position={{ lat: location.latitude, lng: location.longitude }} />
